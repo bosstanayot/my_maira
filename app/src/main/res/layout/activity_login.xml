@@ -4,15 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".LoginActivity"
     android:gravity="center">
-
-<TextView
-    android:id="@+id/text"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:text="aaaaaa"
-    android:textSize="20dp"/>
 
     <com.facebook.login.widget.LoginButton
         android:id="@+id/login_button"
